@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>validacao email</title>
+    <style>
+      div {
+        margin: 10px 0;
+        color: darkgreen;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      small {
+        display: block;
+      }
+
+    </style>
+  </head>
+  <body>
+    <form autocomplete="off">
+      <div>
+        <label for="email">email: </label>
+        <input type="text" id="email" placeholder="ex: emily@gmail.com" />
+        <small id="textEmail"></small>
+      </div>
+
+      <button type="submit">entrar</button>
+
+      <small id="textForm"></small>
+      
+    </form>
+    <script src="email.js"></script>
+  </body>
+</html>
